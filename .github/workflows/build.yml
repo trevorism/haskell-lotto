@@ -15,4 +15,4 @@ jobs:
           ghc-version: 'latest' # Exact version of ghc to use
           enable-stack: true
           stack-version: 'latest'
-      - run: runhaskell Main.hs
+      - run: runhaskell app/Main.hs
